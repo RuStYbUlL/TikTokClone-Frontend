@@ -5,10 +5,11 @@ import Video from './Video.js';
 function App() {
   return (
     <div className="app">
-      <h1>FullStack TikTok Project</h1>
+      <div className="app__videos">
+        <Video/>
+        <Video/>
+      </div>
 
-      <Video/>
-      <Video/>
       {/* app container */}
       {/* Videos */}
         {/* <Video/> */}
@@ -17,8 +18,7 @@ function App() {
         {/* <Video/> */}
         {/* <Video/> */}
 
-
-    </div>
+      </div>
   );
 }
 
