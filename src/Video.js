@@ -30,8 +30,7 @@ function Video() {
         loop
         onClick={handleVideoPress}
         ref = {videoRef} //make video play when clicked on
-        // src = "https://v16-webapp.tiktok.com/272942b7fcda9726490957788b74d7c9/62866eb5/video/tos/maliva/tos-maliva-ve-0068c799-us/0f980e7390714dcdad471dbd9c3f6404/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=2102&bt=1051&cs=0&ds=3&ft=eXd.6HNVMyq8ZZjGbwe2NKvhml7Gb&mime_type=video_mp4&qs=0&rc=OjM4M2k8OGdkaGk6Mzo1M0BpMzR2Ojw6ZnJkOzMzZzczNEAxLS8wYjNeXzExLjJeMTEyYSNnX2pzcjQwYGtgLS1kMS9zcw%3D%3D&l=2022051910215301024524417624346382"></video>
-        src = "https://v16-webapp.tiktok.com/8ff674bb95e094ebdd21774eab88ecd0/6286952d/video/tos/useast2a/tos-useast2a-ve-0068c003/ec70fe5284cb44ad9b687a4ab1b4db66/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=626&bt=313&cs=0&ds=3&ft=eXd.6HNVMyq8ZMm5bwe2NX1Trl7Gb&mime_type=video_mp4&qs=0&rc=NzdkNTU7ZTtpNWc5O2g7ZEBpam9zaWc6ZmV0NjMzNzczM0AwNjYtNl81NjAxYC5hLjVjYSNnbmdmcjQwZ2xgLS1kMTZzcw%3D%3D&l=202205191305490102452461011B17ECC3"></video>
+        src = "https://v16-webapp.tiktok.com/8817b97616da1f88a96291ad657e9ed5/62890003/video/tos/maliva/tos-maliva-ve-0068c799-us/66faea84c95e459cb1f875390bed2bf5/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=750&bt=375&cs=0&ds=3&ft=eXd.6HNVMyq8Zoyu9we2NL4nml7Gb&mime_type=video_mp4&qs=0&rc=ODQ1Ojg3N2U7ZjZoOWc3ZkBpam5yZTs6ZjdxOzMzZzczNEBhMjNfMGEwNjQxYzZhLTM2YSMzcy82cjRnZmhgLS1kMS9zcw%3D%3D&l=202205210906220102452441761C2E5366"></video>
         {/* Video footer */}
         {/* Video sidebar */}
     </div>
