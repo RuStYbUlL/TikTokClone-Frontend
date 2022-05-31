@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react'
 import "./Video.css";
 import VideoFooter from './VideoFooter'
+import VideoSideBar from './VideoSideBar'
 
 function Video() {
     // Variable to keep track of if the video is playing
@@ -35,6 +36,7 @@ function Video() {
         {/* Video footer */}
         <VideoFooter/>
         {/* Video sidebar */}
+        <VideoSideBar/>
     </div>
   )
 }
