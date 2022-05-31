@@ -1,0 +1,59 @@
+.videoFooter{
+    position: relative;
+    color: white;
+    bottom: 150px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.videoFooter__text{
+    flex: 1;
+}
+
+/* Target p tag inside videoFooter__text */
+.videoFooter__text > p{
+    padding-bottom: 20px;
+}
+
+/* Target h3 tag inside videoFooter__text */
+.videoFooter__text > h3{
+    padding-bottom: 20px;
+}
+.videoFooter__icon{
+    position: absolute;
+}
+.MusicNoteIcon{
+    float: left;
+}
+
+/* .videoFooter__ticker{
+    width: 400px;
+    display: flex;
+    align-items: center;
+} */
+
+.videoFooter__ticker marquee{
+    height:fit-content;
+    margin-left: 30px;
+    width: 60%;
+    padding-top: 7px;
+}
+
+/* Record animation */
+.videoFooter__record{
+    animation: spinTheRecord Infinite 5s linear;
+    height: 50px;
+    filter: invert(1); /*white record*/
+    position:absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+@keyframes spinTheRecord{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg)
+    }
+}

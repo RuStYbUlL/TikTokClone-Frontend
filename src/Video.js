@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react'
 import "./Video.css";
+import VideoFooter from './VideoFooter'
 
 function Video() {
     // Variable to keep track of if the video is playing
@@ -30,8 +31,9 @@ function Video() {
         loop
         onClick={handleVideoPress}
         ref = {videoRef} //make video play when clicked on
-        src = "https://v16-webapp.tiktok.com/8817b97616da1f88a96291ad657e9ed5/62890003/video/tos/maliva/tos-maliva-ve-0068c799-us/66faea84c95e459cb1f875390bed2bf5/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=750&bt=375&cs=0&ds=3&ft=eXd.6HNVMyq8Zoyu9we2NL4nml7Gb&mime_type=video_mp4&qs=0&rc=ODQ1Ojg3N2U7ZjZoOWc3ZkBpam5yZTs6ZjdxOzMzZzczNEBhMjNfMGEwNjQxYzZhLTM2YSMzcy82cjRnZmhgLS1kMS9zcw%3D%3D&l=202205210906220102452441761C2E5366"></video>
+        src = "https://v16-webapp.tiktok.com/57f3fd3227a43420496572d88cfb0328/62961738/video/tos/useast2a/tos-useast2a-ve-0068c003/18bed786509a4533bd489d3b6a903103/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=1584&bt=792&btag=80000&cs=0&ds=3&ft=eXd.6HNVMyq8Zuxvvwe2Nfkhml7Gb&mime_type=video_mp4&qs=0&rc=M2U7Zmk8OjdnZDNnNTc8NkBpajx4czQ6ZnVuZDMzNzczM0AwMmMtYF5hNWAxLS80YzVgYSNuM15hcjRvaTNgLS1kMTZzcw%3D%3D&l=20220531072452010245100117209C1C58"></video>
         {/* Video footer */}
+        <VideoFooter/>
         {/* Video sidebar */}
     </div>
   )
