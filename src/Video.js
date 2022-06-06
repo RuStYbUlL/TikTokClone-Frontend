@@ -1,8 +1,9 @@
 import React, { useRef, useState } from 'react'
 import "./Video.css";
 import VideoFooter from './VideoFooter'
+import VideoSideBar from './VideoSideBar'
 
-function Video() {
+function Video({url, channel, description, song, likes, shares, messages}) {
     // Variable to keep track of if the video is playing
     // False as video will nnot be playing initially
     const [playing, setPlaying] = useState(false) 
@@ -31,10 +32,15 @@ function Video() {
         loop
         onClick={handleVideoPress}
         ref = {videoRef} //make video play when clicked on
-        src = "https://v16-webapp.tiktok.com/57f3fd3227a43420496572d88cfb0328/62961738/video/tos/useast2a/tos-useast2a-ve-0068c003/18bed786509a4533bd489d3b6a903103/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=1584&bt=792&btag=80000&cs=0&ds=3&ft=eXd.6HNVMyq8Zuxvvwe2Nfkhml7Gb&mime_type=video_mp4&qs=0&rc=M2U7Zmk8OjdnZDNnNTc8NkBpajx4czQ6ZnVuZDMzNzczM0AwMmMtYF5hNWAxLS80YzVgYSNuM15hcjRvaTNgLS1kMTZzcw%3D%3D&l=20220531072452010245100117209C1C58"></video>
+        src = {url}></video>
         {/* Video footer */}
-        <VideoFooter/>
+        <VideoFooter channel = {channel}
+        description = {description}
+        song = {song}/>
         {/* Video sidebar */}
+        <VideoSideBar likes = {likes} 
+        shares = {shares} 
+        messages = {messages}/>
     </div>
   )
 }
