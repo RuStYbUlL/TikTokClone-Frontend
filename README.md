@@ -69,5 +69,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-# Deployed Frontend on Firebase
-## URL - `https://tiktok-clone-f4c26.web.app` 
+## Deployed Frontend on Firebase
+### URL - `https://tiktok-clone-f4c26.web.app` 
